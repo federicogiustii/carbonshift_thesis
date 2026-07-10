@@ -50,7 +50,7 @@ Esempio:
 
 ```bash
 python universal_clientML3.py --mode camel --scale 1 --slots 10 --task "Named Entity Recognition"
-
+```
 
 ## Notes
 
