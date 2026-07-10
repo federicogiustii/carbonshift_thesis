@@ -18,19 +18,19 @@ Il sistema supporta **tre task principali**, ciascuno con 3 strategie di potenza
 |-----------------------------|-------------|------------------------------------------------------------------|---------------------------------------------------------------|
 | **Text Generation**         | low         | `gpt2-large`                                                     | Modello compatto ma più espressivo di GPT2 base              |
 |                             | medium      | `gpt2-xl`                                                        | Estensione di GPT2 con maggiore capacità generativa           |
-|                             | high        | `EleutherAI/gpt-neo-1.3B`                                        | Alternativa open-source a GPT-3, più profonda                 |
+|                             | high        | `EleutherAI/gpt-neo-1.3B`                                       | Alternativa open-source a GPT-3, più profonda                 |
 | **Named Entity Recognition**| low         | `dslim/bert-base-NER`                                            | BERT base addestrato su CoNLL-2003                            |
-|                             | medium      | `tner/roberta-large-conll2003`                                   | Roberta large ottimizzato per NER                            |
+|                             | medium      | `tner/roberta-large-conll2003`                                   | Roberta large ottimizzato per NER                             |
 |                             | high        | `Jean-Baptiste/roberta-large-ner-english`                        | Roberta large con prestazioni state-of-the-art                |
-| **Question Answering**      | low         | `distilbert-base-uncased-distilled-squad`                        | Versione distillata di BERT per risposte rapide              |
+| **Question Answering**      | low         | `distilbert-base-uncased-distilled-squad`                        | Versione distillata di BERT per risposte rapide               |
 |                             | medium      | `deepset/roberta-base-squad2`                                    | Roberta base addestrato su SQuAD2                             |
 |                             | high        | `bert-large-uncased-whole-word-masking-finetuned-squad`          | BERT large fine-tuned con masking completo                    |
 
 ## Componenti aggiornati
 
-- `service_clock_ML.py`: esegue i task ML dinamicamente.
-- `universal_clientML3.py`: genera workload con task diversi e distribuzioni di carico (random, linear, peak, camel).
-- `client_callback.py`: riceve i risultati dei task con dettagli su task, strategia, slot e output.
+- `service_clockML.py`: esegue i task ML dinamicamente.
+- `replay_requests.py`: genera workload con task diversi e distribuzioni di carico.
+- `client_callback_ML.py`: riceve i risultati dei task con dettagli su task, strategia, slot e output.
 - `scheduler.py`: rimasto invariato nella struttura, ma configurabile via CSV per:
   - Strategia (errori/durata)
   - Emissioni CO₂ per slot
@@ -40,16 +40,14 @@ Il sistema supporta **tre task principali**, ciascuno con 3 strategie di potenza
 
 ## Intercambiabilità e configurazione
 
-Il client consente di selezionare dinamicamente:
-- Distribuzione (`--mode`)
-- Numero di slot (`--slots`)
-- Fattore di scala del carico (`--scale`)
-- Task specifico (`--task`) opzionale per filtrare solo uno dei tre task ML
+Le richieste utilizzate negli esperimenti sono memorizzate nella cartella `requests/`.
+
+Lo script `replay_requests.py` permette di riprodurre il workload inviando in sequenza le richieste verso il frontend di Carbonshift.
 
 Esempio:
 
 ```bash
-python universal_clientML3.py --mode camel --scale 1 --slots 10 --task "Named Entity Recognition"
+python replay_requests.py --file requests/requests_ner35.json
 ```
 
 ## Notes
