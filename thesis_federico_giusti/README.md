@@ -50,3 +50,10 @@ Esempio:
 
 ```bash
 python universal_clientML3.py --mode camel --scale 1 --slots 10 --task "Named Entity Recognition"
+
+
+## Notes
+
+The original local setup kept scripts, CSV files, and request files in the same directory.
+
+In this repository, the material has been organized into separate subfolders for clarity. Therefore, some scripts may require minor adjustments to file paths before execution in a different environment.
