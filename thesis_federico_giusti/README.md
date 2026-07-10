@@ -29,7 +29,7 @@ Il sistema supporta **tre task principali**, ciascuno con 3 strategie di potenza
 ## Componenti aggiornati
 
 - `service_clockML.py`: esegue i task ML dinamicamente.
-- `replay_requests.py`: genera workload con task diversi e distribuzioni di carico.
+- `replay_requests.py`: riproduce i workload pre-generati inviando in sequenza le richieste JSON al frontend.
 - `client_callback_ML.py`: riceve i risultati dei task con dettagli su task, strategia, slot e output.
 - `scheduler.py`: rimasto invariato nella struttura, ma configurabile via CSV per:
   - Strategia (errori/durata)
@@ -38,16 +38,16 @@ Il sistema supporta **tre task principali**, ciascuno con 3 strategie di potenza
 
 ---
 
-## Intercambiabilità e configurazione
+## Riproduzione delle richieste
 
 Le richieste utilizzate negli esperimenti sono memorizzate nella cartella `requests/`.
 
-Lo script `replay_requests.py` permette di riprodurre il workload inviando in sequenza le richieste verso il frontend di Carbonshift.
+Lo script `replay_requests.py` consente di inviare in sequenza le richieste contenute in uno dei file JSON.
 
-Esempio:
+Esempio, eseguito dalla cartella `thesis_federico_giusti/`:
 
 ```bash
-python replay_requests.py --file requests/requests_ner35.json
+python scripts/replay_requests.py --file requests/requests_ner35.json
 ```
 
 ## Notes
