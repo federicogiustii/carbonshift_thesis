@@ -1,0 +1,282 @@
+[
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Barack Obama was the president of the United States."
+    },
+    "D": 1,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Barack Obama was the president of the United States."
+    },
+    "D": 0,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Barack Obama was the president of the United States."
+    },
+    "D": 3,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Barack Obama was the president of the United States."
+    },
+    "D": 4,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Tesla is building a Gigafactory in Berlin."
+    },
+    "D": 1,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Tesla is building a Gigafactory in Berlin."
+    },
+    "D": 1,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Apple Inc. designs iPhones and MacBooks."
+    },
+    "D": 0,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Barack Obama was the president of the United States."
+    },
+    "D": 1,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "OpenAI is headquartered in San Francisco."
+    },
+    "D": 2,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "OpenAI is headquartered in San Francisco."
+    },
+    "D": 3,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Tesla is building a Gigafactory in Berlin."
+    },
+    "D": 2,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Barack Obama was the president of the United States."
+    },
+    "D": 3,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Barack Obama was the president of the United States."
+    },
+    "D": 0,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Barack Obama was the president of the United States."
+    },
+    "D": 1,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Barack Obama was the president of the United States."
+    },
+    "D": 3,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "OpenAI is headquartered in San Francisco."
+    },
+    "D": 1,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "OpenAI is headquartered in San Francisco."
+    },
+    "D": 1,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Apple Inc. designs iPhones and MacBooks."
+    },
+    "D": 2,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "OpenAI is headquartered in San Francisco."
+    },
+    "D": 3,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Barack Obama was the president of the United States."
+    },
+    "D": 4,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Tesla is building a Gigafactory in Berlin."
+    },
+    "D": 2,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "OpenAI is headquartered in San Francisco."
+    },
+    "D": 4,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Tesla is building a Gigafactory in Berlin."
+    },
+    "D": 1,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Tesla is building a Gigafactory in Berlin."
+    },
+    "D": 0,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Apple Inc. designs iPhones and MacBooks."
+    },
+    "D": 3,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Tesla is building a Gigafactory in Berlin."
+    },
+    "D": 1,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Barack Obama was the president of the United States."
+    },
+    "D": 4,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Apple Inc. designs iPhones and MacBooks."
+    },
+    "D": 4,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "OpenAI is headquartered in San Francisco."
+    },
+    "D": 0,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "OpenAI is headquartered in San Francisco."
+    },
+    "D": 0,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Barack Obama was the president of the United States."
+    },
+    "D": 1,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "OpenAI is headquartered in San Francisco."
+    },
+    "D": 2,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Barack Obama was the president of the United States."
+    },
+    "D": 3,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "OpenAI is headquartered in San Francisco."
+    },
+    "D": 3,
+    "C": "http://localhost:5001/callback"
+  },
+  {
+    "M": {
+      "task": "Named Entity Recognition",
+      "sequence": "Tesla is building a Gigafactory in Berlin."
+    },
+    "D": 4,
+    "C": "http://localhost:5001/callback"
+  }
+]
