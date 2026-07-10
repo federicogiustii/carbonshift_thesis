@@ -1,0 +1,10 @@
+Task,Strategy,Time,Error
+Text Generation,LowPower,11.7405,22.1
+Text Generation,MediumPower,19.4288,17.5
+Text Generation,HighPower,27.0969,13.1
+Named Entity Recognition,LowPower,4.385,8.7
+Named Entity Recognition,MediumPower,4.5252,8.3
+Named Entity Recognition,HighPower,4.6624,2.5
+Question Answering,LowPower,2.6776,13.0
+Question Answering,MediumPower,6.2079,8.2
+Question Answering,HighPower,12.6052,6.85
